@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-<head>
 
+<head>
 <title>Contact</title>
 
 <style>
@@ -36,17 +36,6 @@ body {
     animation: fade 1s;
 }
 
-@keyframes fade {
-    from {
-        opacity:0;
-        transform:translateY(50px);
-    }
-    to {
-        opacity:1;
-        transform:translateY(0);
-    }
-}
-
 .card {
     background:#f9fafb;
     padding:15px;
@@ -56,6 +45,17 @@ body {
 
 h1 {
     color:#4f46e5;
+}
+
+@keyframes fade {
+    from {
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to {
+        opacity:1;
+        transform:translateY(0);
+    }
 }
 
 </style>
@@ -76,15 +76,15 @@ h1 {
 <h1>Contact Me</h1>
 
 <div class="card">
-📧 Email: gian@email.com
+Email: gian@email.com
 </div>
 
 <div class="card">
-📱 Phone: 05XXXXXXXX
+Phone: 05XXXXXXXX
 </div>
 
 <div class="card">
-🔗 LinkedIn: Your Link
+LinkedIn: Your Link
 </div>
 
 </div>
